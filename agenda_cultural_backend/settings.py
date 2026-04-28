@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'cloudinary',
     'eventos',
     'locales',
+    'usuarios',  
     'rest_framework',
     'corsheaders',
 ]
