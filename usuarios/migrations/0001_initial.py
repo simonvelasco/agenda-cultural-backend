@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Usuario',
             fields=[
-                ('nommbre', models.CharField(max_length=50, primary_key=True, serialize=False)),
+                ('nombre', models.CharField(max_length=50, primary_key=True, serialize=False)),
                 ('contrasena', models.CharField(max_length=50)),
             ],
         ),
