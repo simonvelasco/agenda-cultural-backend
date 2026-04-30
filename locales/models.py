@@ -7,7 +7,7 @@ class Local(models.Model):
     ubicacion = models.CharField(max_length=50)
     telefono = models.CharField(max_length=50)
     web = models.CharField(max_length=50)
-    imagen = models.ImageField(upload_to='images/locals/')
+    imagen = models.CharField(max_length=500, blank=True, null=True)
     estado = models.CharField(max_length=50)
 
    
