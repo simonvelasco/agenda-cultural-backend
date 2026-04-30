@@ -116,7 +116,7 @@ CLOUDINARY_STORAGE = {
 }
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
-MEDIA_URL = 'https://res.cloudinary.com/dkchynl1r/'
+MEDIA_URL = '/media/'
 
 cloudinary.config(
     cloud_name=config('CLOUDINARY_CLOUD_NAME'),
